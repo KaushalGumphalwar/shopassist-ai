@@ -1,0 +1,34 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+env/
+shopassist_env/
+
+# Ignore vector db
+vectorstores/
+
+# Ignore git files (isse poora Git history folder Docker image me copy nahi hoga.)
+.git/
+.git
+.gitignore
+
+# Ignore notebook files
+*.ipynb
+
+# Ignore OS files
+.DS_Store
+
+# Ignore .en file (Ignore secrets)
+.env
+
+# Ignore unnecessary files & folders
+.streamlit/
+.vscode/
+timepass/
+figures/
+uploads/
+Static/
+rough.ipynb

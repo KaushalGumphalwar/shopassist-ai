@@ -1,0 +1,45 @@
+fastapi==0.116.1
+uvicorn==0.35.0
+
+streamlit==1.49.0
+requests==2.32.5
+
+numpy==1.26.4
+scikit-learn==1.5.2 
+
+chromadb==1.0.20
+protobuf==5.29.5
+grpcio==1.74.0    # ChromaDB internally gRPC/protobuf use karta hai.
+
+sentence-transformers==5.1.0
+# torch==2.8.0
+transformers==4.56.0
+
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-text-splitters==0.3.9
+
+google-generativeai==0.8.5
+
+python-dotenv==1.1.1
+pydantic==2.11.7
+
+# OCR Section:
+unstructured==0.18.14
+unstructured_inference==1.0.5
+unstructured-pytesseract==0.3.15
+pdf2image==1.17.0
+pytesseract==0.3.13
+pillow==11.3.0
+pypdf==6.0.0
+pi-heif==1.1.0
+
+python-docx==1.2.0
+python-pptx==1.0.2
+openpyxl==3.1.5
+
+pyparsing==3.0.9
+httplib2==0.22.0
+
+python-dotenv==1.1.1       # For handling environment variables (.env files variables)
+python-multipart==0.0.20   # For file upload handling (Agar FastAPI me file upload endpoint hai toh) or (Agar frontend se PDF upload karne wale ho)
