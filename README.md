@@ -364,4 +364,4 @@ GitHub: https://github.com/KaushalGumphalwar
 
 # ⭐ If you found this project useful
 
-Please consider giving this repository a star.
+Please consider giving this repository a star ⭐ on GitHub.
