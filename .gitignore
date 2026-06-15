@@ -8,7 +8,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual Environment:
+# Virtual Environments:
 venv/
 env/
 ENV/

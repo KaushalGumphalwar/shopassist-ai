@@ -36,20 +36,17 @@ COPY . .
 # Create folders:
 # Create vectorstore folder: Chroma DB data will be stored here
 # Create client_docs folder: client documents will be stored here
-# =====================================================
 RUN mkdir -p vectorstores
 RUN mkdir -p client_docs
 
 # Expose FastAPI & Streamlit ports
 # Default FastAPI Port = 8000
 # Default Streamlit Port = 8501
-# =====================================================
 EXPOSE 8000
 EXPOSE 8501
 
 # Start application
 # Start FastAPI + Streamlit when container runs
-# =====================================================
 CMD uvicorn api.main:app --host 0.0.0.0 --port 8000 & \
     streamlit run frontend/streamlit_app.py \
     --server.address=0.0.0.0 \
